@@ -4,69 +4,44 @@
 
 int main(void)
 {
-    int day;
-    while (1)
-    {
-        printf("==================================\n");
-        string week = get_string("요일을 입력하세요 : ");  
-        if(strcmp(week,"월요일")==0)
+        printf("==============================\n");
+        string day = get_string("요일을 입력하세요.\n");
+    
+        if (strcmp("월요일", day)==0 ||strcmp("월", day)==0)
         {
-            day=1;
+           printf("월요일: 청국장\n")
         }
-        else if(strcmp(week,"화요일")==0)
+        else if (strcmp("화요일", day)==0 ||strcmp("화", day)==0)
         {
-            day=2;
+           printf("화요일: 비빔밥\n")
         }
-        else if(strcmp(week,"수요일")==0)
+        else if (strcmp("수요일", day)==0 ||strcmp("수", day)==0)
         {
-            day=3;
+           printf("수요일: 된장찌개\n")
         }
-        else if(strcmp(week,"목요일")==0)
+        else if (strcmp("목요일", day)==0 ||strcmp("목", day)==0)
         {
-            day=4;
-        }
-        else if(strcmp(week,"금요일")==0)
+           printf("목요일: 칼국수\n")
+        else if (strcmp("목요일", day)==0 ||strcmp("목", day)==0)
         {
-            day=5;
+           printf("금요일: 칼국수\n")
         }
-        else if(strcmp(week,"토요일")==0)
+        else if (strcmp("토요일", day)==0 ||strcmp("토", day)==0)
         {
-            day=6;
+           printf("토요일: 소불고기\n");
         }
-        else if(strcmp(week,"일요일")==0)
+        else if (strcmp("일요일", day)==0 ||strcmp("일", day)==0)
         {
-            day=7; 
+            printf("일요일: 오삼불고기\n");
         }
-        else if (strcmp(week,"끝")==0)
-          {
-            break;
-           }   
-        switch(day)
-        {
-            case 1 :
-                printf("월요일 : 청국장\n");
-                break;
-            case 2 :
-                printf("화요일 : 비빔밥\n");
-                break;
-            case 3 :
-                printf("수요일 : 된장찌개\n");
-                break;
-            case 4 :
-                printf("목요일 : 칼국수\n");
-                break;     
-            case 5 :
-                printf("금요일 : 냉면\n");
-                break;     
-            case 6 :
-                printf("토요일 : 소불고기\n");
-                break;       
-            case 7 :
-                printf("일요일 : 오삼불고기\n");
-                break;    
-            default :
-               printf("다시 입력해주세요.\n");
-        }
-        printf("==================================\n");
-    }
+            {                
+                    break;
+            }
+            
+              else (strcmp("끝", day)==0
+                    {
+                    printf("요일을 입력하세요. ex)월요일\n");
+                    }
+              printf("==============================\n");
 }
+                    
