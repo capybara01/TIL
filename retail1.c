@@ -1,4 +1,4 @@
-// 수박 재고 프로그램 //리더 forest님 작업 참고
+// 수박 재고 프로그램 // 리더 forest님 작업 참고
 
 #include <cs50.h>
 #include <stdio.h>
