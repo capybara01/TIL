@@ -1,5 +1,4 @@
-// 수박 재고 관리 프로그램 / charles님 코딩+ 리더 forest님 코드 참조
-// do while 반복문 + if else 사용
+// 수박 재고 관리 프로그램
 
 #include <cs50.h>
 #include <stdio.h>
@@ -7,14 +6,13 @@
 int main(void)
 { 
     int stock=5; //총 재고 5개
-    int order=0; //주문건수
     int price=10000; // 개당 가격
     int sales=0; //총 매출액(부가세 포함)
     int quantity=0; //주문수량
 
         do
         {
-            printf("======================\n");
+            printf("=================\n");
 
             quantity=get_int("주문수량: ");
 
@@ -28,19 +26,18 @@ int main(void)
             }
             else if (quantity<=stock)
             {
-                printf("----------------------\n");
+                printf("-----------------\n");
 
                 printf("주문수량: %i개\n", quantity);
                 printf("기존 재고량: %i개\n", stock);
-
-                order++;
+                
                 stock-=quantity;
                 sales += 1.1*quantity*price; // 매출액은 10%*가격*수량 으로 계산 // +10% -> 110% = 1.1
 
                 printf("남은 재고량: %i개\n", stock);
                 printf("매출액(부가세 포함): %i원\n", sales);
             }
-            printf("======================\n");
+            printf("=================\n");
   
         }
             while (0<stock); // 재고가 있으면 주문이 계속됨
