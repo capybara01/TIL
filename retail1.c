@@ -25,7 +25,8 @@ int main(void)
                 quantity = get_int("재고수량을 정해주세요.\n 주문수량 : ");
                 }
 
-            order++;
+            order++; // 주문건수는 1씩 증가
+            
             printf("=================\n");
             printf("주문건수: %i개\n", order);
             printf("기존 재고량: %i개\n", stock);
