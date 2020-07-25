@@ -1,4 +1,4 @@
-// 수박 재고 관리 프로그램 / charles님 코드 + 리더 forest님 코드 참조	// 수박 재고 관리 프로그램
+// 수박 재고 관리 프로그램 / charles님 코드 + 리더 forest님 코드 참조
 // do while 반복문 + if else 사용
 
 #include <cs50.h>
