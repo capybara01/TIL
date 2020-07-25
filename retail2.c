@@ -1,4 +1,4 @@
-// 수박 재고 관리 프로그램 / charles님 코딩+ 리더 forest님 코드 참조	// 수박 재고 관리 프로그램
+// 수박 재고 관리 프로그램 / charles님 코드 + 리더 forest님 코드 참조	// 수박 재고 관리 프로그램
 // do while 반복문 + if else 사용
 
 #include <cs50.h>
@@ -9,7 +9,7 @@ int main(void)
     int stock=5; //총 재고 5개
     int price=10000; // 개당 가격
     int sales=0; //총 매출액(부가세 포함)
-    int quantity=0; //주문수량
+    int quantity; //주문수량
 
         do
         {
