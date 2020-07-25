@@ -1,3 +1,5 @@
+//ex) 월,월요일 /둘 다 가능하게 써봄
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
