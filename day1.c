@@ -1,3 +1,5 @@
+//day, week 매개 변수가 다른 것을 확인!!!
+
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
